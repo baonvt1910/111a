@@ -15,7 +15,7 @@ const url = "mongodb+srv://" +
     "?retryWrites=true&w=majority";*/
 /////////////////////////////////////////////////.
 const userName = "bao2002";
-const userPassword = "0901107442baott";
+const userPassword = "passcuatui";
 
 const dbName = "ATN_shop";
  
