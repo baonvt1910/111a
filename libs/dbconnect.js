@@ -14,7 +14,7 @@ const url = "mongodb+srv://" +
     "@cluster0.s7ukh.mongodb.net/" + dbName +
     "?retryWrites=true&w=majority";*/
 /////////////////////////////////////////////////.
-const userName = "bao2002";
+const userName = "bao20022";
 const userPassword = "passcuatui";
 
 const dbName = "ATN_shop";
@@ -22,9 +22,10 @@ const dbName = "ATN_shop";
 
 const url = "mongodb+srv://" +
     userName + ":" + userPassword +     
-    "@cluster0.x8ieg.mongodb.net/" + dbName +
+    "@cluster0.akcdx.mongodb.net/" + dbName +
     "?retryWrites=true&w=majority";
 
+//mongodb+srv://bao20022:<password>@cluster0.akcdx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 ///////////////////////////////////////////////////a
 function connectDB(xURL) {
     // kết nối MongoDB bằng LIB Mongoose
